@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+      
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+article {
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+h1 { 
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+ img {
+    display: block;
+    margin: 0 auto;
+}
+p { color: black;
+    text-align: center;
+}
+
+
+ h5 { 
+  color: gray;
+  background-color: white;
+}
+ 
+h3 {
+ color: black;
+ background-color: white;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 25%;
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+div  {
+       border-radius: 4px;
+      padding: 0px;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li style="width:25%"><a href="#home">HOME</a></li>
+  <li style="width:25%"><a href="#about">ABOUT</a></li>
+  <li style="width:25%"><a href="#menu">MENU</a></li>
+  <li style="width:25%"><a href="#where">WHERE</a></li>
+</ul>
+
+<div id="home">
+<img src="coffeehouse.jpg" style="width:100%">  
+</div>
+
+<article>
+ <div id="about"> 
+<h1>ABOUT THE CAFE</h1>
+  <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+</div>
+</article>
+
+<img src="coffeeshop2.jpg" style="width:50%"> 
+ <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, INDIA</p>
+
+<article>
+ <div id="menu">
+<h1>THE MENU</h1>
+<ul>
+  <li style="width:50%"><a href="#eat">EAT</a></li>
+  <li style="width:50%"><a href="#drink">DRINK</a></li>
+</ul>
+<div id="eat">
+<img src="eat.jpg" style="float:right; width:490px; height:550px">
+ <h3>Bread Basket</h3>
+ <h5>Assortment of fresh baked fruit breads and muffins Rs. 50</h5>
+<br>
+ <h3>Honey Almond Granola with Fruits</h3>
+ <h5>Honey Almond Granola with Fruits</h5>  
+<br>
+ <h3>Belgian Waffle</h3>
+ <h5>Vanilla flavored batter with malted flour Rs. 75</h5>
+<br>
+ <h3>Scrambled eggs</h3>
+ <h5>Scrambled eggs, roasted red pepper and garlic, with green onions Rs. 75</h5>
+<br>
+ <h3>Blueberry Pancakes</h3>
+ <h5>With syrup, butter and lots of berries Rs. 85</h5>
+</div> 
+</article>
+
+<article>
+<div>
+<img src="drink.jpg" style="float:left; width:490px; height:550px"> 
+</div>
+<div  align="right" id="drink"> 
+ <h3>Coffee</h3>
+  <h5>Regular coffee Rs. 25</h5>
+<br>
+  <h3>Chocolato</h3>
+  <h5>Chocolate espresso with milk Rs. 45</h5>
+<br>
+  <h3>Corretto</h3>
+  <h5>Whiskey and coffee Rs. 50</h5> 
+<br>
+ <h3>Iced tea</h3>
+ <h5>Hot tea, except not hot Rs. 30</h5>
+<br>
+ <h3>Soda</h3>
+ <h5>Coke, Sprite, Fanta, etc. RS. 25</h5>
+</div>
+</div>
+</article>
+
+<img src="coffeehouse3.jpg" style="width:70%">
+
+<article>
+<div id="where">
+<h1>WHERE TO FIND US</h1>
+<br>
+<h2 align="left">CONTACT</h2>
+<h4>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</h4>
+
+Catering Service, 42nd Living St, 43043 Andheri, INDIA <br>
+ You can also contact us by phone 00553123-2323 or email catering@catering.com
+</div>
+  <h3>Reserve a table, ask for today's special or just send us a message:</h3>
+<div style= background-color: #f2f2f2>
+
+    <input type="text"   placeholder="Name">
+    <input type="number"  placeholder="How Many People">
+    <input type="text" placeholder="Special requirements"> 
+   <input  type="submit" value="Send Message">
+  </form>
+</div>
+</article>
+
+<form action="welcome.php" method="post">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+    </form>
+
+    
+</body>
+</html>
